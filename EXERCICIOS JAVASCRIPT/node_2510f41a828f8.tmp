@@ -1,0 +1,16 @@
+ 
+ //VERIFIVAR SE VOTA OU NÃO
+ 
+ /*var idade = 66
+if (idade < 16){
+    console.log('não vota')
+    } else if (idade < 18 || idade > 65){
+        console.log('voto opcional')
+    } else {
+        console.log('voto obrigatorio')
+    }*/
+    
+    
+for(var c = 1;c <=10; c+2 ){
+    console.log(c)
+}

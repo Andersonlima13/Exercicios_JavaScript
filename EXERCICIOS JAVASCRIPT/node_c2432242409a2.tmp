@@ -1,0 +1,217 @@
+/*var largura = 5
+var altura = 5
+var area = (largura * altura)
+var pintar = (area/2)
+console.log(`a parede possui area de ${area}m2 e são necessarios ${pintar} litros de tinta `)
+*/
+
+/*var preço = 721
+var desconto = 20
+var porcento = (preço*desconto)/100
+var novo = (preço - porcento)
+console.log(novo)
+*/
+
+/*var salario = 2000
+var novo =  (salario) + (salario * 20/100)
+console.log(novo)
+*/
+
+/*var km = 350
+var dias = 3
+var preço = (dias * 60) + (km * 0.15)
+console.log(preço)
+*/
+
+var array = [4,4,5,6,8]
+var maior = 0;
+for (var i = 0; i < array.length; i++){
+    var numero = array[i];
+    if (numero > maior) {
+        maior = numero;
+    }
+}
+
+console.log(maior)
+
+
+
+
+
+
+/*var salario = 1000
+if (salario > 1250){
+    salario = (salario) + (salario * 10/100)
+} else {
+    salario = (salario) + (salario * 15/100)
+}
+console.log(salario)  
+*/
+
+/*var nome = 'anderson sousa'
+separar = nome.replace(/ /g,'')
+console.log(separar.length)
+*/
+
+/*var casa = 120000
+var salario = 1250
+var anos = 10
+var mensal = casa / (anos * 12) 
+var min = salario * 30/100
+if (mensal > min){
+    console.log(`Valor da casa: ${casa} seu salário:${salario} prestação por mes ${mensal} durante ${anos} anos, não foi possivel realizar o financiamento`)
+} else {
+    console.log(`Valor da casa: ${casa} seu salário:${salario} prestação por mes ${mensal} durante ${anos} anos, foi possivel realizar a compra`)
+}*/
+
+/*var valor1 = 200
+var valor2 = 11
+var maior = 0
+if (valor1 == valor2 ){
+    console.log("valores iguais")    
+} if (valor1 > maior){
+    maior = valor1
+} if (valor2 > maior){
+    maior = valor2
+}console.log(maior)
+*/
+
+
+
+/*function contar(){
+    let ini = document.getElementById('txtini')
+    let fim = document.getElementById('txtfim')
+    let passo = document.getElementById('txtpasso')
+    let res = document.getElementById('res')
+    if (ini.value.length = 0 || fim.value.length == 0 || passo.value.length == 0){
+    window.alert('ALGUM ERRO OCORREU')
+    } else {
+        res.innerHTML = 'funcionou'
+        let i = Number('ini.value')
+        let f = Number('fim.value')
+        let p = Number('passo.value')
+
+        for(let c = i; c <= i; c +=p) {
+            res.innerHTML += `${c} `
+
+
+        }
+        
+        
+    }
+}
+*/
+
+/*function carregar(){
+
+    var msg = window.document.getElementById('msg')
+    var data = new Date()
+    var hora = 999
+    msg.innerHTML = `agora são ${hora} horas porrr`
+}*/
+ 
+ 
+ 
+ 
+ //VERIFICAR SE VOTA OU NÃO, CONDICIONAIS EM JAVASCRIPT
+ 
+ /*var idade = 66
+if (idade < 16){
+    console.log('não vota')
+    } else if (idade < 18 || idade > 65){
+        console.log('voto opcional')
+    } else {
+        console.log('voto obrigatorio')
+    }*/
+    
+ 
+    
+// javaScript For
+
+// for recieves 3 parameters, the first is your variable
+// the second is your condition ,  and the last, the action
+// So the code will print the variable(c) while c smaller 10!
+
+
+for(var c = 1;c <=10; c+1 ){
+    console.log(c)
+}
+console.log('write teen time on screen!')
+
+
+
+
+
+
+//VETORES EM JAVASCRIPT
+/*let vetores = [4,8,9,4,10,3]
+for(let pos = 0; pos < vetores.length; pos++){
+    console.log(`a posição de ${pos} tem valor de ${vetores[pos]}` )
+}
+
+
+
+// VETORES EM JAVASCRIPT COM FOR SIMPLES
+/*let vetores = [4,8,9,4,10,3]
+for(let pos in vetores){
+    console.log(`a posição de ${pos} tem valor de ${vetores[pos]}` )
+}
+
+*/
+
+
+// FUNÇÃO EM JAVASCRIPT 
+/*function parimpar(n){
+    if (n%2 ==0) {
+        return 'É par'
+    }else {
+        return 'É impar'
+    }
+}
+console.log(parimpar(4))*/
+
+
+// CRIE UM PROGRAMA QUE VERIFIQUE AS NOTAS DE UM ALUNO, SE ELE TIRAR => 7 RETORNE APROVADO
+// SE TIRAR MENOR QUE 7 E <= 4 DIGITE PROVA FINAL, E MENOR QUE 4 IGUAL A REPROVADO:
+
+
+/*var nome = 'anderson'
+var nota = 4
+    if (nota < 4) {
+    console.log(`o aluno ${nome} foi reprovado com nota ${nota}`)
+} else if (nota >= 4 & nota < 7){
+    console.log(`o aluno ${nome} foi para final com nota ${nota}`)
+} else {
+  console.log(`o aluno ${nome} foi aprovado com nota ${nota}`)
+}*/
+
+
+
+
+
+
+// MESMO PROGRAMA PORÉM APRIMORADO, AQUI O ALUNO TEM 3 NOTAS E CALCULAMOS A MEDIA DO MESMO, PARA ASSIM IMPRIMIR O CONCEITO
+  /*  var nome = ['anderson','soua','lima']
+    var nota1 = Number('9') //CONVERSÃO DE STRING PARA NUMERO
+    var nota2 = Number('7') 
+    var nota3 = Number('10') 
+    var media = (nota1 + nota2 + nota3) / 3  // VALOR É DIVIDIDO POR 3 E NOS RETORNA O CONCEITO
+        if (media < 4) {
+        console.log(`o aluno ${nome} foi reprovado com media ${media}`)
+    } else if (media >= 4 & media < 7){
+        console.log(`o aluno ${nome} foi para final com media ${media}`)
+    } else {
+    console.log(`o aluno ${nome} foi aprovado com media ${media}`)
+    }
+
+*/
+
+
+
+// Conditionals are essential in every program language.
+// you can decide the way of your code! 
+
+
+
+// 1 day of praticie !
+
