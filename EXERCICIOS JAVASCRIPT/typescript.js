@@ -1,4 +1,5 @@
-var car = /** @class */ (function () {
+/*
+var car = /// @class // (function () {
     function car(model, doorsquantity) {
         this.speed = 0;
         this.model = model;
@@ -14,3 +15,5 @@ var car = /** @class */ (function () {
 }());
 var palio = new car('palio', 4);
 console.log(palio);
+
+*/
